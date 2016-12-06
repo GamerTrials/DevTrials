@@ -1,0 +1,10 @@
+/home/pedro/repos/Clicker/Clicker/Clicker/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/pedro/repos/Clicker/Clicker/Clicker/bin/Debug/Clicker.exe.mdb
+/home/pedro/repos/Clicker/Clicker/Clicker/bin/Debug/Clicker.exe
+/home/pedro/repos/Clicker/Clicker/Clicker/obj/x86/Debug/Clicker.exe
+/home/pedro/repos/Clicker/Clicker/Clicker/obj/x86/Debug/Clicker.exe.mdb
+/home/pedro/repos/dojo/2016/11/08/Clicker/Clicker/Clicker/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/pedro/repos/dojo/2016/11/08/Clicker/Clicker/Clicker/bin/Debug/Clicker.exe.mdb
+/home/pedro/repos/dojo/2016/11/08/Clicker/Clicker/Clicker/bin/Debug/Clicker.exe
+/home/pedro/repos/dojo/2016/11/08/Clicker/Clicker/Clicker/obj/x86/Debug/Clicker.exe
+/home/pedro/repos/dojo/2016/11/08/Clicker/Clicker/Clicker/obj/x86/Debug/Clicker.exe.mdb

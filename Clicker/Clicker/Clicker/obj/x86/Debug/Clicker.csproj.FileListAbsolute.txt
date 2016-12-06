@@ -1,0 +1,5 @@
+C:\Users\finxi\Documents\dojo\2016\11\08\Clicker\Clicker\Clicker\bin\Debug\Clicker.exe
+C:\Users\finxi\Documents\dojo\2016\11\08\Clicker\Clicker\Clicker\bin\Debug\Clicker.pdb
+C:\Users\finxi\Documents\dojo\2016\11\08\Clicker\Clicker\Clicker\obj\x86\Debug\Clicker.exe
+C:\Users\finxi\Documents\dojo\2016\11\08\Clicker\Clicker\Clicker\obj\x86\Debug\Clicker.pdb
+C:\Users\finxi\Documents\dojo\2016\11\08\Clicker\Clicker\Clicker\obj\x86\Debug\Clicker.csprojResolveAssemblyReference.cache

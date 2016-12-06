@@ -1,0 +1,17 @@
+﻿<Properties StartupItem="Clicker.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+    <Files>
+      <File FileName="Program.cs" Line="19" Column="75" />
+      <File FileName="GameManager.cs" Line="24" Column="18" />
+      <File FileName="Worker.cs" Line="4" Column="2" />
+      <File FileName="Upgrade.cs" Line="1" Column="1" />
+      <File FileName="InputManager.cs" Line="10" Column="3" />
+      <File FileName="Screen.cs" Line="8" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
