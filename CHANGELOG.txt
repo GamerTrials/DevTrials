@@ -1,0 +1,12 @@
+v0.2.0
+
+- Migração do projeto principal para Unity (CLI abandonada)
+- Criação do conceito de GameStudio
+  - GameStudio terá a capacidade de possuir vários projetos de desenvolvimento de jogos;
+  - Atualmente, o GameStudio é tratado apenas como um acumulador para o dinheiro gerado;
+- ClickerGameLogic possui o código da biblioteca utilizada para controlar toda a lógica do jogo;
+- Refatoração de conceitos dentro do código:
+  - Monkeys viraram Developers
+  - TrialPieces viraram Features
+  - Oven virou GameDevProject
+- Adicionado custo crescente para compra de Devs (não testado ainda)

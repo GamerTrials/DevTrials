@@ -1,0 +1,17 @@
+C:\Users\finxi\Documents\dojo\2016\11\08\Clicker\Clicker\Clicker\Testes\bin\Release\Testes.dll
+C:\Users\finxi\Documents\dojo\2016\11\08\Clicker\Clicker\Clicker\Testes\bin\Release\Testes.pdb
+C:\Users\finxi\Documents\dojo\2016\11\08\Clicker\Clicker\Clicker\Testes\bin\Release\Castle.Core.dll
+C:\Users\finxi\Documents\dojo\2016\11\08\Clicker\Clicker\Clicker\Testes\bin\Release\Clicker.exe
+C:\Users\finxi\Documents\dojo\2016\11\08\Clicker\Clicker\Clicker\Testes\bin\Release\Moq.dll
+C:\Users\finxi\Documents\dojo\2016\11\08\Clicker\Clicker\Clicker\Testes\bin\Release\nunit.core.dll
+C:\Users\finxi\Documents\dojo\2016\11\08\Clicker\Clicker\Clicker\Testes\bin\Release\nunit.core.interfaces.dll
+C:\Users\finxi\Documents\dojo\2016\11\08\Clicker\Clicker\Clicker\Testes\bin\Release\nunit.framework.dll
+C:\Users\finxi\Documents\dojo\2016\11\08\Clicker\Clicker\Clicker\Testes\bin\Release\nunit.util.dll
+C:\Users\finxi\Documents\dojo\2016\11\08\Clicker\Clicker\Clicker\Testes\bin\Release\NUnit.VisualStudio.TestAdapter.dll
+C:\Users\finxi\Documents\dojo\2016\11\08\Clicker\Clicker\Clicker\Testes\bin\Release\Clicker.pdb
+C:\Users\finxi\Documents\dojo\2016\11\08\Clicker\Clicker\Clicker\Testes\bin\Release\nunit.framework.xml
+C:\Users\finxi\Documents\dojo\2016\11\08\Clicker\Clicker\Clicker\Testes\bin\Release\Castle.Core.xml
+C:\Users\finxi\Documents\dojo\2016\11\08\Clicker\Clicker\Clicker\Testes\bin\Release\Moq.xml
+C:\Users\finxi\Documents\dojo\2016\11\08\Clicker\Clicker\Clicker\Testes\obj\Release\Testes.csprojResolveAssemblyReference.cache
+C:\Users\finxi\Documents\dojo\2016\11\08\Clicker\Clicker\Clicker\Testes\obj\Release\Testes.dll
+C:\Users\finxi\Documents\dojo\2016\11\08\Clicker\Clicker\Clicker\Testes\obj\Release\Testes.pdb
