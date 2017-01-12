@@ -11,36 +11,53 @@ public class NewBehaviourScript : MonoBehaviour {
     [SerializeField]
     Text nextDevText;
 
-    GameStudio gameStudio = new GameStudio(()=> new GameDevProject());
-	// Use this for initialization
+	[SerializeField]
+	Text nextGameValue;
+
+	[SerializeField]
+	Text nextGameFeaturesPerSec;
+
+
+	GameDevCompany company = new GameDevCompany(new MarketPlace(),new GameStudio(()=> new GameDevProject()));
+
 	void Start ()
     {
-        nextDevText.text = "Adicionar Dev: $" + gameStudio.NextDevCost;
+		nextDevText.text = "Adicionar Dev: $" + company.NextDevCost;
     }
 
     void PrintStatus() 
     {
-        textArea.text = string.Format("${0} $/s: {1} #Developers: {2}", gameStudio.Money, 
-            gameStudio.MoneyPerSecond, 
-            gameStudio.MoneyPerSecond);
+		textArea.text = string.Format("${0}  #Free Developers: {1}", company.Money, company.FreeDevs);
+
+		nextGameValue.text = company.GetProject (0).FeaturesGenerated.ToString();
+		nextGameFeaturesPerSec.text = company.GetProject (0).FeaturesGeneratedPerSec.ToString();
     }
+
     public void AdicionarDev() 
     {
-        Debug.Log("bunda");
-        gameStudio = gameStudio.AddDev (0);
-        nextDevText.text = "Adicionar Dev: $" + gameStudio.NextDevCost;
+		company.HireDev ();
+		nextDevText.text = "Adicionar Dev: $" + company.NextDevCost.ToString();
     }
+
+	public void AddDevToGame(int index)
+	{
+		company.AssociateADev (index);
+	}
+
+	public void SellGame(int index)
+	{
+		company.SellGame (index);
+	}
 
     public void DesenvolverJogo() 
     {
-        Debug.Log("diacho");
-        gameStudio = gameStudio.Click(0);
-    }
-	
+		company.HelpDevGame (0);
+   	}
+
 	// Update is called once per frame
 	void Update () {
 
-        gameStudio = gameStudio.TimeLapse((long)(Time.deltaTime * 1000));
+		company.TimeLapse((long)(Time.deltaTime * 1000));
         PrintStatus();
     }
 }

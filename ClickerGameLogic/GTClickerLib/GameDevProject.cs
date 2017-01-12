@@ -34,13 +34,6 @@ namespace GTClicker
 			return new GameDevProject (this.fractionalFeaturesGenerated + 1, this.devs);
 		}
 
-		public IGameDevProject HarvestFeatures () {
-			var newFractional = this.fractionalFeaturesGenerated - this.FeaturesGenerated;
-			var ret =  new GameDevProject (0, this.devs);
-            ret.fractionalFeaturesGenerated = newFractional;
-            return ret;
-		}
-
 		public IGameDevProject TimeLapse(long milliseconds) {
 			double generated = this.fractionalFeaturesGenerated + ((milliseconds/1000.0) * this.devs.Count); 
 

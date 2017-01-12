@@ -23,7 +23,6 @@ namespace GTClicker {
                 this.game = this.game.DevelopFeature();
 
             total += this.game.FeaturesGenerated;
-            this.game = this.game.HarvestFeatures();
             return string.Format("Trial Pieces: {0}\nTrial Pieces por segundo: {1}",
                 total,this.game.FeaturesGeneratedPerSec);
         }

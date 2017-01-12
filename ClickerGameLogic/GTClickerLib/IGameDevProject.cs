@@ -10,8 +10,6 @@ namespace GTClicker
 
 		IGameDevProject TimeLapse (long deltaTime);
 
-		IGameDevProject HarvestFeatures ();
-
 		IGameDevProject Associate (IDeveloper m);
 
         long FeaturesGeneratedPerSec { get; }

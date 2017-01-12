@@ -15,7 +15,6 @@ namespace Testes
             mock.Setup((x) => x.Associate(It.IsAny<IDeveloper>())).Returns(mock.Object);
             mock.Setup((x) => x.DevelopFeature()).Returns( mock.Object);
             mock.Setup((x) => x.TimeLapse(It.IsAny<long>())).Returns( mock.Object);
-            mock.Setup((x) => x.HarvestFeatures()).Returns(mock.Object);
             return mock;
         }
 
@@ -67,14 +66,6 @@ namespace Testes
             cli.Input("m\n", 200L);
         }
 
-        [Test]
-        public void HarvestOnInput() {
-            var mock = this.GenerateMock();
-            var cli = new CLI(mock.Object);
-            mock.Setup((x) => x.HarvestFeatures()).Returns(mock.Object);
-            cli.Input("m\n", 200L);
-            mock.Verify((x) => x.HarvestFeatures(), Times.Once);
-        }
 
     }
 }

@@ -25,15 +25,6 @@ namespace Testes
 		}
 
 		[Test ()]
-		public void projectHarvested ()
-		{
-			var project = new GameDevProject ();
-			var newproject = project.DevelopFeature ();
-			newproject = newproject.HarvestFeatures ();
-			Assert.AreEqual (0, newproject.FeaturesGenerated);
-		}
-
-		[Test ()]
 		public void projectClickedTwice ()
 		{
 			var project = new GameDevProject ();
@@ -84,18 +75,6 @@ namespace Testes
 
 			Assert.AreEqual (0, game.FeaturesGenerated);
 		}
-
-        /*,[Test()]
-        public void WorkerGeneratedOwnValue() {
-            var dev = new Dev();
-            IGame game = new Game();
-            game = game.Associate(dev);
-            game = game.TimeLapse(1000L);
-
-            Assert.AreEqual(dev.BPS(), game.FeaturesGenerated);
-        }*/
-
-
 
     }
 }

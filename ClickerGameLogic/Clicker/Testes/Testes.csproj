@@ -53,9 +53,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CLIFunctionalTests.cs" />
+    <Compile Include="GameDevCompanyTest.cs" />
     <Compile Include="GameDevProjectTest.cs" />
     <Compile Include="CLITest.cs" />
     <Compile Include="GameStudioTest.cs" />
+    <Compile Include="MarketPlaceTests.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

@@ -4,40 +4,71 @@ using System.Linq;
 using System.Text;
 
 namespace GTClicker {
-    public class GameStudio {
-        IGameDevProject theProject;
+	public class GameStudio : IGameStudio {
+        IGameDevProject theProject { get; set; }
+		Func<IGameDevProject> projectFactory;
 
-        public long Money { get; private set; }
         public long NextDevCost { get; private set; }
         public long MoneyPerSecond { get {return  theProject.FeaturesGeneratedPerSec; } }
 
-        public GameStudio(Func<IGameDevProject> projectFactory) {
+		public long FreeDevPool {
+			get;
+			private set;
+		}
+
+		public GameStudio(Func<IGameDevProject> projectFactory) {
             this.theProject = projectFactory();
-            this.Money = 30;
+			this.projectFactory = projectFactory;
+            this.NextDevCost = 30;
+
+        }
+
+        public GameStudio(Func<IGameDevProject> projectFactory, long currency) {
+            this.theProject = projectFactory();
+			this.projectFactory = projectFactory;
             this.NextDevCost = 30;
         }
 
-        public GameStudio AddDev(int index) {
-            if(Money >= NextDevCost) 
-            {
-                this.theProject = this.theProject.Associate(new Developer());
-                Money -= NextDevCost;
-                NextDevCost = (long)(NextDevCost * 1.11);
-            }
-            
+        public IGameStudio AddDevToFreePool() {
+        
+			FreeDevPool++;
+           
+         
             return this;
         }
 
-        public GameStudio Click(int index) {
+		public IGameStudio Click(int index) {
             this.theProject = this.theProject.DevelopFeature();
             return this;
         }
 
-        public GameStudio TimeLapse(long deltaTime) {
+		public IGameStudio TimeLapse(long deltaTime) {
             this.theProject = this.theProject.TimeLapse(deltaTime);
-            this.Money += this.theProject.FeaturesGenerated;
-            this.theProject = this.theProject.HarvestFeatures();
             return this;
         }
-    }
+
+		public IGameStudio Remove(int index) {
+			FreeDevPool = this.theProject.FeaturesGeneratedPerSec;
+			this.theProject = this.projectFactory ();
+            return this;
+        }
+    	
+		public IGameStudio AddDevtoProject(int index){
+
+			if (FreeDevPool > 0) 
+			{
+				IDeveloper dev = new Developer ();
+				this.theProject = this.theProject.Associate (dev);
+				FreeDevPool--;
+			}
+
+			return this;
+		}
+
+		public IGameDevProject GetGame (int index)
+		{
+			return this.theProject;
+		}
+	}
+
 }

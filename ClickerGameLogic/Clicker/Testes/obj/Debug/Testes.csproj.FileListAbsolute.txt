@@ -15,5 +15,5 @@ C:\Users\finxi\Documents\dojo\2016\11\08\Clicker\Clicker\Clicker\Testes\bin\Debu
 C:\Users\finxi\Documents\dojo\2016\11\08\Clicker\Clicker\Clicker\Testes\bin\Debug\nunit.core.interfaces.dll
 C:\Users\finxi\Documents\dojo\2016\11\08\Clicker\Clicker\Clicker\Testes\bin\Debug\nunit.util.dll
 C:\Users\finxi\Documents\dojo\2016\11\08\Clicker\Clicker\Clicker\Testes\bin\Debug\NUnit.VisualStudio.TestAdapter.dll
-C:\Users\finxi\Documents\dojo\2016\11\08\Clicker\Clicker\Clicker\Testes\bin\Debug\ClickerLib.dll
-C:\Users\finxi\Documents\dojo\2016\11\08\Clicker\Clicker\Clicker\Testes\bin\Debug\ClickerLib.pdb
+C:\Users\finxi\Documents\dojo\2016\11\08\Clicker\Clicker\Clicker\Testes\bin\Debug\GTClickerLib.dll
+C:\Users\finxi\Documents\dojo\2016\11\08\Clicker\Clicker\Clicker\Testes\bin\Debug\GTClickerLib.pdb

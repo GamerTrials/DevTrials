@@ -1,8 +1,17 @@
-﻿<Properties StartupItem="Clicker\Clicker.csproj">
+﻿<Properties StartupItem="Clicker\Clicker.csproj" RefactoringSettings.EnableRefactorings="True">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ClickerLib\Properties\AssemblyInfo.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GTClickerLib\MarketPlace.cs">
     <Files>
-      <File FileName="ClickerLib\Properties\AssemblyInfo.cs" Line="13" Column="51" />
+      <File FileName="Clicker\Testes\GameStudioTest.cs" Line="1" Column="1" />
+      <File FileName="GTClickerLib\IGameStudio.cs" Line="1" Column="1" />
+      <File FileName="GTClickerLib\GameStudio.cs" Line="1" Column="1" />
+      <File FileName="GTClickerLib\GameDevProject.cs" Line="1" Column="1" />
+      <File FileName="GTClickerLib\GameDevCompany.cs" Line="9" Column="8" />
+      <File FileName="GTClickerLib\IGameDevCompany.cs" Line="15" Column="23" />
+      <File FileName="GTClickerLib\IGameDevProject.cs" Line="1" Column="1" />
+      <File FileName="GTClickerLib\MarketPlace.cs" Line="10" Column="3" />
+      <File FileName="Clicker\Testes\GameDevCompanyTest.cs" Line="1" Column="1" />
+      <File FileName="GTClickerLib\IMarketPlace.cs" Line="2" Column="31" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
