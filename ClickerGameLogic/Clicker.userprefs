@@ -6,12 +6,12 @@
       <File FileName="GTClickerLib\IGameStudio.cs" Line="1" Column="1" />
       <File FileName="GTClickerLib\GameStudio.cs" Line="1" Column="1" />
       <File FileName="GTClickerLib\GameDevProject.cs" Line="1" Column="1" />
-      <File FileName="GTClickerLib\GameDevCompany.cs" Line="9" Column="8" />
-      <File FileName="GTClickerLib\IGameDevCompany.cs" Line="15" Column="23" />
+      <File FileName="GTClickerLib\GameDevCompany.cs" Line="1" Column="1" />
+      <File FileName="GTClickerLib\IGameDevCompany.cs" Line="1" Column="1" />
       <File FileName="GTClickerLib\IGameDevProject.cs" Line="1" Column="1" />
-      <File FileName="GTClickerLib\MarketPlace.cs" Line="10" Column="3" />
+      <File FileName="GTClickerLib\MarketPlace.cs" Line="1" Column="1" />
       <File FileName="Clicker\Testes\GameDevCompanyTest.cs" Line="1" Column="1" />
-      <File FileName="GTClickerLib\IMarketPlace.cs" Line="2" Column="31" />
+      <File FileName="GTClickerLib\IMarketPlace.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

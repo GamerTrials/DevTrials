@@ -3,3 +3,7 @@ C:\Users\finxi\Documents\dojo\2016\11\08\Clicker\Clicker\GTClickerLib\bin\Debug\
 C:\Users\finxi\Documents\dojo\2016\11\08\Clicker\Clicker\GTClickerLib\obj\Debug\GTClickerLib.csprojResolveAssemblyReference.cache
 C:\Users\finxi\Documents\dojo\2016\11\08\Clicker\Clicker\GTClickerLib\obj\Debug\GTClickerLib.dll
 C:\Users\finxi\Documents\dojo\2016\11\08\Clicker\Clicker\GTClickerLib\obj\Debug\GTClickerLib.pdb
+C:\Users\finxi\Documents\DevTrials\ClickerGameLogic\GTClickerLib\bin\Debug\GTClickerLib.dll
+C:\Users\finxi\Documents\DevTrials\ClickerGameLogic\GTClickerLib\bin\Debug\GTClickerLib.pdb
+C:\Users\finxi\Documents\DevTrials\ClickerGameLogic\GTClickerLib\obj\Debug\GTClickerLib.dll
+C:\Users\finxi\Documents\DevTrials\ClickerGameLogic\GTClickerLib\obj\Debug\GTClickerLib.pdb
