@@ -2,13 +2,12 @@
 
 namespace GTClicker
 {
-	public class Developer: IDeveloper 
+	public class JuniorDeveloper: IDeveloper 
 	{
 		public double FeaturesGeneratedPerSec { get; private set; }
-
-		public Developer ()
+		public JuniorDeveloper ()
 		{
-			this.FeaturesGeneratedPerSec = 1;
+			this.FeaturesGeneratedPerSec = 0.5;
 		}
 	}
 }

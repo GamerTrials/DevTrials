@@ -44,6 +44,8 @@
     <Compile Include="IGameDevProject.cs" />
     <Compile Include="ISellableGame.cs" />
     <Compile Include="SellableGameAdapter.cs" />
+    <Compile Include="JuniorDeveloper.cs" />
+    <Compile Include="SeniorDeveloper.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

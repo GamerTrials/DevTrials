@@ -35,7 +35,12 @@ namespace GTClicker
 		}
 
 		public IGameDevProject TimeLapse(long milliseconds) {
-			double generated = this.fractionalFeaturesGenerated + ((milliseconds/1000.0) * this.devs.Count); 
+			double seconds = (double)milliseconds / 1000.0;
+			double generated = this.fractionalFeaturesGenerated;
+
+			foreach(var developer in this.devs) {
+				generated = generated + developer.FeaturesGeneratedPerSec * seconds;
+			}
 
 			return new GameDevProject (generated, this.devs);
 		}

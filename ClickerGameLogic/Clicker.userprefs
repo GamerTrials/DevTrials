@@ -1,18 +1,31 @@
 ﻿<Properties StartupItem="Clicker\Clicker.csproj" RefactoringSettings.EnableRefactorings="True">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="GTClickerLib\MarketPlace.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GTClickerLib\Developer.cs">
     <Files>
-      <File FileName="Clicker\Testes\GameStudioTest.cs" Line="1" Column="1" />
-      <File FileName="GTClickerLib\IGameStudio.cs" Line="1" Column="1" />
-      <File FileName="GTClickerLib\GameStudio.cs" Line="1" Column="1" />
-      <File FileName="GTClickerLib\GameDevProject.cs" Line="1" Column="1" />
-      <File FileName="GTClickerLib\GameDevCompany.cs" Line="1" Column="1" />
-      <File FileName="GTClickerLib\IGameDevCompany.cs" Line="1" Column="1" />
-      <File FileName="GTClickerLib\IGameDevProject.cs" Line="1" Column="1" />
-      <File FileName="GTClickerLib\MarketPlace.cs" Line="1" Column="1" />
-      <File FileName="Clicker\Testes\GameDevCompanyTest.cs" Line="1" Column="1" />
-      <File FileName="GTClickerLib\IMarketPlace.cs" Line="1" Column="1" />
+      <File FileName="GTClickerLib\JuniorDeveloper.cs" Line="5" Column="31" />
+      <File FileName="GTClickerLib\IDeveloper.cs" Line="8" Column="33" />
+      <File FileName="GTClickerLib\Developer.cs" Line="7" Column="40" />
+      <File FileName="Clicker\Testes\DeveloperTest.cs" Line="23" Column="38" />
+      <File FileName="GTClickerLib\GameStudio.cs" Line="8" Column="9" />
+      <File FileName="GTClickerLib\GameDevProject.cs" Line="41" Column="41" />
+      <File FileName="GTClickerLib\SeniorDeveloper.cs" Line="9" Column="4" />
+      <File FileName="Clicker\Testes\MarketPlaceTests.cs" Line="61" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State name="__root__">
+          <Node name="Clicker" expanded="True">
+            <Node name="Testes" expanded="True">
+              <Node name="Testes" expanded="True">
+                <Node name="GameDevProjectTest" expanded="True">
+                  <Node name="JuniorDevGeneratedOneFeatureInTwoDistinctTimeLapses" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

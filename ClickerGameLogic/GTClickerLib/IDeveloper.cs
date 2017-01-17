@@ -5,7 +5,6 @@ using System.Text;
 
 namespace GTClicker {
     public interface IDeveloper {
+		double FeaturesGeneratedPerSec { get; }
     }
-
-
 }

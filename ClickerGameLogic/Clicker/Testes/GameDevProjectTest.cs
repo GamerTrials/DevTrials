@@ -76,6 +76,29 @@ namespace Testes
 			Assert.AreEqual (0, game.FeaturesGenerated);
 		}
 
+		[Test ()]
+		public void JuniorDevGeneratedOneFeatureInTwoDistinctTimeLapses ()
+		{
+			var dev = new JuniorDeveloper ();
+			IGameDevProject game = new GameDevProject ();
+			game = game.Associate (dev);
+			game = game.TimeLapse (1000L);
+			game = game.TimeLapse (1000L);
+
+			Assert.AreEqual (1, game.FeaturesGenerated);
+		}
+
+		[Test ()]
+		public void SeniorDevGeneratedOneFeatureInOneTimeLapses ()
+		{
+			var dev = new SeniorDeveloper ();
+			IGameDevProject game = new GameDevProject ();
+			game = game.Associate (dev);
+			game = game.TimeLapse (1000L);
+
+			Assert.AreEqual (5, game.FeaturesGenerated);
+		}
+
     }
 }
 
